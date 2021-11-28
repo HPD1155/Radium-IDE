@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="toolbar" id="toolbar">
+        <img src="Logo.png">
+        <select class="Lang" id="pl">
+          <option value=".nul">Select Language...</option>
+          <option value=".txt">Text</option>
+          <option value=".md">MarkDown</option>
+        </select>
+        <input placeholder="Enter Your File Name Here..." id="filename" class="fn">
+        <button id="dbt" onclick="readydownload(); var fname = document.getElementById('filename').value; var file = (fname + window.filetype); download(file, document.getElementById('codeArea').value);">Download</button>
+    </div>
+    <textarea placeholder="Add some code here..." class="codearea" id="codeArea"></textarea>
+  </body>
+</html>

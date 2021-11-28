@@ -1,0 +1,32 @@
+.toolbar {
+  background-color: #1f1f1f;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #11fa00, #2b2b2b) 1;
+}
+body {
+  background-color: #0f0f0f;
+}
+.Lang {
+  margin-top: -100px;
+  background-color: #1f1f1f;
+  border-width: 1px;
+  border-image: linear-gradient(to right, #9900ff, #5f3bff) 1;
+  color: white;
+}
+.codearea{
+  background-color: #141414;
+  width: 90%;
+  height: 600px;
+  border-radius: 10px;
+  color: #c9c9c9;
+}
+.fn{
+  color: #c9c9c9; 
+  background-color: #141414;
+}
+#dbt
+{
+  background-color: #141414;
+  color: #c9c9c9;
+}
